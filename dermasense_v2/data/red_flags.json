@@ -1,0 +1,60 @@
+{
+  "emergency": [
+    {
+      "id": "breathing_swelling",
+      "patterns": [
+        "(trouble|difficulty|hard to|can'?t|cannot) breath",
+        "short(ness)? of breath",
+        "swell(ing|en)? (of |in )?(my |the )?(face|lips?|tongue|throat)",
+        "throat (is )?(closing|tight|swelling)"
+      ],
+      "message": "Trouble breathing or swelling of the face, lips, tongue or throat can be a severe allergic reaction."
+    },
+    {
+      "id": "widespread_blistering",
+      "patterns": [
+        "skin (is )?(peeling|falling|sloughing) off",
+        "blister(s|ing)? (in|on|inside) (my )?(mouth|eyes?|lips)",
+        "(mouth|eye) sores? (and|with) (a )?rash",
+        "painful (red |purple )?rash.*(spreading|blister)"
+      ],
+      "message": "Widespread blistering or peeling skin, especially with mouth or eye involvement, can be a serious reaction."
+    },
+    {
+      "id": "infection_signs",
+      "patterns": [
+        "red streaks",
+        "fever.*(rash|red|swollen|skin)",
+        "(rash|red|swollen|skin).*fever",
+        "pus.*(fever|spreading)",
+        "skin (is )?(hot|warm) and (swollen|spreading)"
+      ],
+      "message": "A spreading skin area with fever or red streaks can be a sign of a serious infection."
+    }
+  ],
+  "urgent_review": [
+    {
+      "id": "mole_change",
+      "patterns": [
+        "mole.*(bleed|bleeding|chang|grow|growing|irregular|dark(er|ening)|itch)",
+        "(bleeding|changing|growing|new) (mole|dark spot)",
+        "sore that (won'?t|does not|doesn'?t) heal"
+      ],
+      "message": "A changing, bleeding or non-healing skin lesion should be examined by a clinician soon."
+    }
+  ],
+  "crisis": [
+    {
+      "id": "self_harm",
+      "patterns": [
+        "want to die",
+        "kill myself",
+        "end my life",
+        "suicid",
+        "hurt myself",
+        "no reason to live"
+      ],
+      "message": "It sounds like you may be in distress."
+    }
+  ]
+}

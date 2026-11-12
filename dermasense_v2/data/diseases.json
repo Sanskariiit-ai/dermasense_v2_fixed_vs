@@ -1,0 +1,99 @@
+{
+  "eczema": {
+    "description": "Chronic inflammatory skin condition characterized by dry itchy skin.",
+    "symptoms": [
+      "dry skin",
+      "itching",
+      "red patches",
+      "cracking skin"
+    ],
+    "body_locations": [
+      "hands",
+      "arms",
+      "legs",
+      "neck",
+      "inner elbows",
+      "behind knees"
+    ],
+    "risk_factors": [
+      "allergies",
+      "asthma",
+      "family history"
+    ],
+    "severity_levels": [
+      "mild",
+      "moderate",
+      "severe"
+    ]
+  },
+  "psoriasis": {
+    "description": "Long-term immune-related skin condition causing red scaly plaques.",
+    "symptoms": [
+      "red patches",
+      "scaly skin",
+      "itching",
+      "cracking skin"
+    ],
+    "body_locations": [
+      "elbows",
+      "knees",
+      "scalp"
+    ],
+    "risk_factors": [
+      "stress",
+      "family history"
+    ],
+    "severity_levels": [
+      "mild",
+      "moderate",
+      "severe"
+    ]
+  },
+  "rosacea": {
+    "description": "Long-term facial skin condition causing redness, flushing, visible small blood vessels and sometimes bumps.",
+    "symptoms": [
+      "facial redness",
+      "flushing",
+      "visible blood vessels"
+    ],
+    "body_locations": [
+      "cheeks",
+      "nose",
+      "forehead",
+      "chin"
+    ],
+    "risk_factors": [
+      "fair skin",
+      "family history",
+      "sun exposure"
+    ],
+    "severity_levels": [
+      "mild",
+      "moderate",
+      "severe"
+    ]
+  },
+  "acne vulgaris": {
+    "description": "Inflammatory disorder of hair follicles and oil glands.",
+    "symptoms": [
+      "pimples",
+      "blackheads",
+      "whiteheads",
+      "oily skin"
+    ],
+    "body_locations": [
+      "face",
+      "chest",
+      "back"
+    ],
+    "risk_factors": [
+      "puberty",
+      "hormones"
+    ],
+    "severity_levels": [
+      "mild",
+      "moderate",
+      "severe"
+    ]
+  }
+}

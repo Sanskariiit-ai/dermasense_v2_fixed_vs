@@ -1,0 +1,17 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+motor>=3.4
+pymongo>=4.7
+pydantic>=2.6
+pydantic-settings>=2.2
+python-multipart>=0.0.9
+PyJWT>=2.8
+numpy>=1.26
+chromadb>=0.5
+sentence-transformers>=2.7
+faster-whisper>=1.0
+ollama>=0.2
+redis>=5.0
+reportlab>=4.1
+# optional: better voice activity detection (needs a C compiler); an energy-based fallback is built in
+# webrtcvad>=2.0.10

@@ -1,0 +1,206 @@
+{
+  "dry skin": {
+    "category": "Skin Dryness",
+    "aliases": [
+      "dry skin",
+      "dryness",
+      "skin is dry",
+      "dry patches",
+      "flaky skin",
+      "flaking"
+    ],
+    "followups": [
+      "How long have you had dry skin?",
+      "How severe is the dryness (mild, moderate, severe)?",
+      "Do you notice cracking or bleeding?"
+    ]
+  },
+  "itching": {
+    "category": "Skin Irritation",
+    "aliases": [
+      "itch",
+      "itchy",
+      "itching",
+      "scratching",
+      "scratch"
+    ],
+    "followups": [
+      "Where is the itching located?",
+      "How severe is the itching, from 1 to 10?",
+      "Does it get worse at night?"
+    ]
+  },
+  "red patches": {
+    "category": "Skin Colour Changes",
+    "aliases": [
+      "red patch",
+      "red patches",
+      "red spots",
+      "red areas",
+      "red plaques",
+      "inflamed skin"
+    ],
+    "followups": [
+      "Where on your body are the patches?",
+      "Are they raised, flat, or scaly?",
+      "Have they grown or spread recently?"
+    ]
+  },
+  "cracking skin": {
+    "category": "Skin Dryness",
+    "aliases": [
+      "cracked skin",
+      "cracking skin",
+      "skin cracks",
+      "cracks in my skin",
+      "fissures",
+      "bleeding cracks"
+    ],
+    "followups": [
+      "Which areas are cracking?",
+      "Do the cracks bleed or sting?"
+    ]
+  },
+  "scaly skin": {
+    "category": "Skin Texture",
+    "aliases": [
+      "scaly",
+      "scales",
+      "scaling",
+      "silvery scales",
+      "thick scales",
+      "peeling skin"
+    ],
+    "followups": [
+      "Are the scales thick or fine, and what colour are they?",
+      "Is the scalp, elbows or knees affected?"
+    ]
+  },
+  "facial redness": {
+    "category": "Facial Symptoms",
+    "aliases": [
+      "red face",
+      "facial redness",
+      "redness on my face",
+      "red cheeks",
+      "red nose",
+      "blushing"
+    ],
+    "followups": [
+      "Does the redness come and go or stay constant?",
+      "Is there burning or stinging?"
+    ]
+  },
+  "flushing": {
+    "category": "Facial Symptoms",
+    "aliases": [
+      "flushing",
+      "flush",
+      "face gets hot",
+      "face turns red",
+      "hot flushes"
+    ],
+    "followups": [
+      "What seems to trigger the flushing (heat, food, alcohol, stress)?",
+      "How long does an episode last?"
+    ]
+  },
+  "visible blood vessels": {
+    "category": "Facial Symptoms",
+    "aliases": [
+      "visible blood vessels",
+      "spider veins",
+      "broken capillaries",
+      "thread veins",
+      "small red veins"
+    ],
+    "followups": [
+      "Where do you see the blood vessels?",
+      "Have they become more noticeable over time?"
+    ]
+  },
+  "pimples": {
+    "category": "Acne",
+    "aliases": [
+      "pimple",
+      "pimples",
+      "acne",
+      "zits",
+      "breakouts",
+      "spots on my face",
+      "cysts",
+      "painful bumps"
+    ],
+    "followups": [
+      "Where do the pimples appear (face, chest, back)?",
+      "Are they painful, deep, or leaving scars?",
+      "Have you tried any treatments?"
+    ]
+  },
+  "blackheads": {
+    "category": "Acne",
+    "aliases": [
+      "blackhead",
+      "blackheads",
+      "clogged pores"
+    ],
+    "followups": [
+      "Which areas have blackheads?"
+    ]
+  },
+  "whiteheads": {
+    "category": "Acne",
+    "aliases": [
+      "whitehead",
+      "whiteheads",
+      "milia"
+    ],
+    "followups": [
+      "Which areas have whiteheads?"
+    ]
+  },
+  "oily skin": {
+    "category": "Acne",
+    "aliases": [
+      "oily skin",
+      "greasy skin",
+      "shiny skin",
+      "excess oil"
+    ],
+    "followups": [
+      "Is the oiliness mainly on your forehead, nose and chin?"
+    ]
+  },
+  "hair loss": {
+    "category": "Hair Symptoms",
+    "aliases": [
+      "hair loss",
+      "losing hair",
+      "hair falling",
+      "hair fall",
+      "bald patch",
+      "thinning hair",
+      "balding"
+    ],
+    "followups": [
+      "When did it start?",
+      "Is it patchy or spread across the scalp?",
+      "Do you have scalp irritation or itching?"
+    ]
+  },
+  "rash": {
+    "category": "Rash",
+    "aliases": [
+      "rash",
+      "rashes",
+      "hives",
+      "welts",
+      "bumpy skin"
+    ],
+    "followups": [
+      "When did the rash appear?",
+      "Is it painful or itchy?",
+      "Has it spread, and did you start any new medicine or product before it appeared?"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+services:
+  mongo:
+    image: mongo:7
+    volumes: [mongo_data:/data/db]
+  redis:
+    image: redis:7-alpine
+  ollama:
+    image: ollama/ollama
+    volumes: [ollama_data:/root/.ollama]
+  backend:
+    build: { context: ., dockerfile: docker/backend.Dockerfile }
+    environment:
+      ENV: production
+      MONGO_URI: mongodb://mongo:27017
+      REDIS_URL: redis://redis:6379/0
+      OLLAMA_HOST: http://ollama:11434
+      JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET in your shell or .env}
+      CORS_ORIGINS: http://localhost:8080
+    volumes: [chroma_data:/app/chroma_storage]
+    depends_on: [mongo, redis, ollama]
+  frontend:
+    build: { context: ., dockerfile: docker/frontend.Dockerfile }
+    depends_on: [backend]
+  nginx:
+    image: nginx:1.27-alpine
+    ports: ["8080:80"]
+    volumes: [./docker/nginx.conf:/etc/nginx/conf.d/default.conf:ro]
+    depends_on: [backend, frontend]
+volumes: { mongo_data: {}, ollama_data: {}, chroma_data: {} }

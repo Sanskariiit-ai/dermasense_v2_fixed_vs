@@ -1,0 +1,25 @@
+{
+  "eczema": [
+    "dry skin",
+    "itching",
+    "red patches",
+    "cracking skin"
+  ],
+  "psoriasis": [
+    "red patches",
+    "scaly skin",
+    "itching",
+    "cracking skin"
+  ],
+  "rosacea": [
+    "facial redness",
+    "flushing",
+    "visible blood vessels"
+  ],
+  "acne vulgaris": [
+    "pimples",
+    "blackheads",
+    "whiteheads",
+    "oily skin"
+  ]
+}

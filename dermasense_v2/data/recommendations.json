@@ -1,0 +1,26 @@
+{
+  "eczema": [
+    "Moisturise regularly, ideally right after bathing",
+    "Avoid harsh soaps and hot showers",
+    "Try to identify and avoid triggers such as irritants or allergens",
+    "See a doctor or dermatologist if it worsens, becomes painful, oozes, or disturbs sleep"
+  ],
+  "psoriasis": [
+    "Keep the skin moisturised",
+    "Manage stress where possible",
+    "See a dermatologist for evaluation; effective treatments exist",
+    "Seek care promptly if you have joint pain or stiffness alongside the skin changes"
+  ],
+  "rosacea": [
+    "Note and avoid personal triggers (for example sun, heat, alcohol, spicy food)",
+    "Use sun protection and gentle skincare",
+    "See a doctor or dermatologist for treatment options",
+    "Seek care if you have eye irritation or pain"
+  ],
+  "acne vulgaris": [
+    "Use non-comedogenic (non-pore-clogging) products",
+    "Wash gently and avoid scrubbing",
+    "Avoid squeezing pimples, which can cause scarring",
+    "See a doctor if acne is painful, deep, scarring, or not improving"
+  ]
+}
